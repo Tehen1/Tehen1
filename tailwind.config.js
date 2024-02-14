@@ -1,17 +1,14 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
-  darkMode: "class",
+  plugins: [require("daisyui")],
+};
+module.exports = {
   corePlugins: {
     preflight: false,
   },
   theme: {
     extend: {},
   },
-  plugins: [
-    require("@tailwindcss/typography"),
-    require("@tailwindcss/forms"),
-    require("@tailwindcss/aspect-ratio"),
-    require("@tailwindcss/container-queries"),
-  ],
+  plugins: [require("daisyui")],
 };
