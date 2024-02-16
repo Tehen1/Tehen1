@@ -1,0 +1,19 @@
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 10px;
+  width: 300px;
+}
+
+input[type="file"] {
+  margin-bottom: 10px;
+}
+
+button {
+  margin: 5px 0;
+  width: 100%;
+}
+
+#answers {
+  margin-top: 10px;
+}
